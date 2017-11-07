@@ -18,11 +18,11 @@ function fuzzyMatch(drivers, string) {
   for (const name of drivers) {
     console.log(name[0])
     if (name[0] === string) {
-      driverFuzzyMatch.push(user)
+      driverFuzzyMatch.push(name)
     }
   }
   console.log(driverFuzzyMatch)
-  debugger;
+  ///debugger;
   return driverFuzzyMatch
 }
 
