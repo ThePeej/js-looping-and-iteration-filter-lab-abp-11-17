@@ -15,7 +15,7 @@ function fuzzyMatch(drivers, string) {
   */
 
   for (const name of drivers) {
-    const nameSlice = name.slice(0,string.length))
+    const nameSlice = name.slice(0,string.length)
     console.log(name)
     console.log(nameSlice)
     console.log(string)
