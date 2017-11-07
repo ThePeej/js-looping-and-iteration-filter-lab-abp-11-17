@@ -18,6 +18,6 @@ function matchName(drivers, string) {
     }
     console.log(driverMatch)
     debugger;
-    return driverMatch
   }
+  return driverMatch
 }
