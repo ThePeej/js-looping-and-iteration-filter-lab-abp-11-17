@@ -16,8 +16,8 @@ function matchName(drivers, string) {
     if (user.name === string) {
       driverMatch.push(user)
     }
-    console.log(driverMatch)
-    debugger;
   }
+  console.log(driverMatch)
+  debugger;
   return driverMatch
 }
