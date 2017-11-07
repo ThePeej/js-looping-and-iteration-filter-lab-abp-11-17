@@ -6,7 +6,11 @@ function findMatching(drivers, string) {
 }
 
 function fuzzyMatch(drivers, string) {
-
+  let driverFuzzyMatch = []
+  console.log(drivers)
+  console.log(drivers[0])
+  debugger;
+  console.log(drivers[0][0])
 }
 
 
