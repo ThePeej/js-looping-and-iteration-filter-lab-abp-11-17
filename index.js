@@ -1,7 +1,7 @@
 // Code your solution in this file
 function findMatching(drivers, string) {
   const matchingDrivers = drivers.filter(function(name) {return name.toUpperCase() === string.toUpperCase()})
-  console.log(matchingDrivers)
+  ///console.log(matchingDrivers)
   return matchingDrivers
 }
 
