@@ -15,14 +15,8 @@ function matchName(drivers, string) {
   for (const user of drivers) {
     if (user.name === string) {
       driverMatch.push(user)
-    }    
+    }
     console.log(driverMatch)
+    return driverMatch
   }
-  debugger;
-  const driversName = drivers.name
-  debugger;
-  const matchingDrivers = driversName.filter(function(name) {return name === string})
-  console.log(matchingDrivers)
-  debugger;
-  return matchingDrivers
 }
