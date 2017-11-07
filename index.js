@@ -15,13 +15,16 @@ function fuzzyMatch(drivers, string) {
   */
 
   for (const name of drivers) {
+    const nameSlice = name.slice(0,string.length))
     console.log(name)
-    console.log(name.slice(0,string.length))
+    console.log(nameSlice)
     console.log(string)
     debugger;
-    if (name[index] === string) {
+    if (nameSlice === string) {
       driverFuzzyMatch.push(name)
+      console.log(driverFuzzyMatch)
     }
+    debugger;
   }
   console.log(driverFuzzyMatch)
   ///debugger;
