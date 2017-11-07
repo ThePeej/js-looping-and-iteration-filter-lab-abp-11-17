@@ -7,7 +7,7 @@ function findMatching(drivers, string) {
 
 function fuzzyMatch(drivers, string) {
   let driverFuzzyMatch = []
-
+  const index = string.length - 1
   /*
   console.log(drivers)
   console.log(drivers[0])
@@ -17,10 +17,10 @@ function fuzzyMatch(drivers, string) {
 
   for (const name of drivers) {
     console.log(name)
-    console.log(name[0])
+    console.log(name[index])
     console.log(string)
     debugger;
-    if (name[0] === string) {
+    if (name[index] === string) {
       driverFuzzyMatch.push(name)
     }
   }
