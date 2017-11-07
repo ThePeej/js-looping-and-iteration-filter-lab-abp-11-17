@@ -22,14 +22,14 @@ function fuzzyMatch(drivers, string) {
     console.log(string)
     debugger;
     */
-    
+
     if (nameSlice === string) {
       driverFuzzyMatch.push(name)
       console.log(driverFuzzyMatch)
     }
     ///debugger;
   }
-  console.log(driverFuzzyMatch)
+  ///console.log(driverFuzzyMatch)
   ///debugger;
   return driverFuzzyMatch
 }
